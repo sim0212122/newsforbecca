@@ -1,0 +1,15 @@
+{
+  "name": "toyota-news-fetcher",
+  "version": "1.0.0",
+  "description": "丰田中国动态简报自动生成工具",
+  "main": "news-fetcher.ts",
+  "scripts": {
+    "fetch": "tsx news-fetcher.ts"
+  },
+  "dependencies": {
+    "coze-coding-dev-sdk": "^0.7.16"
+  },
+  "devDependencies": {
+    "tsx": "^4.7.0"
+  }
+}
